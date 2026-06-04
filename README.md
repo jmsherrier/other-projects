@@ -2,8 +2,6 @@
 
 A catalog of completed and in-progress projects that don't have public repositories.
 
-![cardinal](assets/bird_cardinal.png) &nbsp; ![goldfinch](assets/bird_goldfinch.png) &nbsp; ![blue jay](assets/bird_bluejay.png)
-
 ---
 
 ## Parasite — 2D Platformer (Unity)
@@ -24,9 +22,9 @@ A solo-developed 2D action-platformer built in **Unity** with **C#**. The player
 
 Built end to end by one developer: game design, programming, and content. **Currently in active development.**
 
-![sitting cat](assets/cat_sitting.png) &nbsp; ![robin](assets/bird_robbin.png)
+![sitting cat](assets/cat_afk.gif)
 
-<sub>In-game pixel art — hand-drawn in Aseprite.</sub>
+<sub>In-game idle animation — hand-drawn in Aseprite.</sub>
 
 ---
 
@@ -51,7 +49,5 @@ A brand and product site for **Sérain**, a line of botanical tisanes — each "
 **Stack:** vanilla HTML/CSS/JS · Three.js (WebGL) · Netlify (hosting + Forms) · Cloudflare (DNS) · Formspree.
 
 ---
-
-![pigeon](assets/bird_pigeon.png)
 
 *Maintained by [@jmsherrier](https://github.com/jmsherrier).*
