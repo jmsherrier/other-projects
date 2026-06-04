@@ -13,18 +13,17 @@ A catalog of completed and in-progress projects that don't have public repositor
 
 A solo-developed 2D action-platformer built in **Unity** with **C#**. The player moves through an interactive, nature-themed world that blends exploration, questing, and story.
 
-**Design pillars**
+**Engineering**
 
-- **Platforming + combat** — responsive 2D movement paired with real-time minigames and combat system.
-- **Questing** — objectives and progression that give the world structure and direction.
-- **Interactive world** — environments and characters the player can engage with and affect.
-- **Authored content** — levels, environments, and characters designed as a cohesive natural world.
+- **Event-driven systems in C#** — gameplay communicates through events and a decoupled signal layer rather than direct references, so combat, questing, and world state react to changes without hard dependencies between systems.
+- **Low coupling, high cohesion** — movement, combat, dialogue, and quest tracking each own a single responsibility behind a narrow interface; ScriptableObjects hold data separately from behaviour, keeping content authorable without touching code.
+- **Responsive control + combat** — frame-tuned 2D movement paired with real-time minigames and a state-driven combat system.
+- **Data-driven progression** — quest objectives and progression defined as data, giving the world structure while staying easy to extend.
+- **Interactive, authored world** — environments and characters designed as a cohesive natural world the player can engage with and affect.
 
-Built end to end by one developer: game design, programming, and content. **Currently in active development.**
+Built end to end by one developer: systems design, gameplay programming, and content. **Currently in active development.**
 
 ![sitting cat](assets/cat_afk.gif)
-
-<sub>In-game idle animation — hand-drawn in Aseprite.</sub>
 
 ---
 
