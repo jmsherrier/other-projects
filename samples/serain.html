@@ -1,0 +1,37 @@
+<!doctype html>
+<!--
+  Sérain — representative page skeleton for the product site (serain.us).
+  The live site is a vanilla HTML/CSS/JS single-page experience: an editorial
+  scroll opening on a dictionary entry, a horizontal carousel of product
+  "expressions", and an interactive Three.js bottle rendered to a canvas.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sérain — botanical tisanes</title>
+    <meta name="description" content="Sérain — a line of botanical tisanes, each expression themed around a place in the world." />
+  </head>
+  <body>
+    <main class="scroll">
+      <section class="intro" aria-label="Definition">
+        <dl>
+          <dt><em>sérain</em></dt>
+          <dd>rain falling from a cloudless sky.</dd>
+        </dl>
+      </section>
+
+      <section class="carousel" aria-label="Expressions">
+        <article class="expression">
+          <canvas class="bottle" aria-hidden="true"></canvas>
+          <h2>Andaman</h2>
+          <p class="notes">Tasting notes, ingredients, and prose.</p>
+          <form class="notify" netlify>
+            <label>Notify me<input type="email" name="email" required /></label>
+            <button type="submit">Sign up</button>
+          </form>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
