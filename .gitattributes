@@ -1,6 +1,0 @@
-# GitHub Linguist treats a samples/ directory as documentation and excludes it
-# from the repository language statistics by default. These overrides force the
-# sample sources to be counted so C# and HTML appear in the language bar.
-samples/** linguist-documentation=false
-samples/** linguist-detectable=true
-*.cs linguist-detectable=true
